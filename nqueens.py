@@ -10,16 +10,16 @@ DIM = 8
 
 def blue(x, end = '\n'):
     if x == 1:
-        rich.print(f"[bold cyan]Q[/bold cyan]", end=end)
+        rich.print(f"[bold cyan]+[/bold cyan]", end=end)
     else:
-        rich.print(f"[bold cyan]x[/bold cyan]", end=end)
+        rich.print(f"[bold cyan]{x}[/bold cyan]", end=end)
 
 
 def red(x, end = '\n'):
     if x == 0:
         rich.print(f"[bold red]x[/bold red]", end=end)
     else:
-        rich.print(f"[bold red]Q[/bold red]", end=end)
+        rich.print(f"[bold red]{x}[/bold red]", end=end)
 
 def bprint(arr, b = None, r = None):
     for row in arr:
