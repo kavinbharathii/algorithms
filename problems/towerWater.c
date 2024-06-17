@@ -85,6 +85,6 @@ int main() {
     // int arr[6] = {4, 2, 0, 3, 2, 5};
     int arr[10] = {5, 3, 7, 2, 6, 4, 5, 9, 1, 2};
     int len = 10;
-    int ans = findWaterLevel(arr, 10);
+    int ans = findWaterLevel(arr, len);
     printf("%d\n", ans);
 }
